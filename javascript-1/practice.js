@@ -154,6 +154,8 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
+
+
 //////////////////PROBLEM 15////////////////////
 
 // Now, use .filter to create a new array containing any numbers that are greater than 100. Call the new array 'filtered'. 

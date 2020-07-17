@@ -16,7 +16,9 @@ let me = {
     superHeroName: "The Super SpecRunner",
     homeTown: "Derry, NH",
     superPowers: ["Unbreakable Script Cannon", "Faulty Line Karate-kick-FIX", "Spec Runner Sprint"],
-    superPowerXP: ,
+    superPowerXP: function(
+        
+    ),
     profileImage: ,
 }
 
