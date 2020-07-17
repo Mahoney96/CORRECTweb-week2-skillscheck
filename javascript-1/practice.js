@@ -40,11 +40,15 @@ sum(5,5);
 
 //Code here
 
-function lovesCode(x){
-	return if( x === true){
+function lovesCodeChecker(x){
+	if(x === true){
 		return true;
+	} else{
+		return false;
 	}
-}
+};
+
+lovesCodeChecker(true);
 
 
 //////////////////PROBLEM 6////////////////////
@@ -53,11 +57,32 @@ function lovesCode(x){
 
 //Code here
 
+function oddChecker(num){
+	if( num % 2 !== 0){
+		return 'the number is odd';
+	} else{
+		return 'the number is even';
+	}
+};
+
+
+
+
+
+
+
 //////////////////PROBLEM 7////////////////////
 
 // Create a function called 'iLove' that takes in two string parameters, 'name' and 'love'. Have the function take the two parameters and return a string that says "NAMEPARAM loves LOVEPARAM" with the appropriate parameters in the string. e.g. "Joseph loves music"
 
 //Code Here
+
+function iLove(name, love){
+	return `${name} loves ${love}`
+};
+
+
+
 
 //////////////////PROBLEM 8////////////////////
 
@@ -66,11 +91,15 @@ const faveColors = ['red', 'green', 'black']
 
 //Code Here
 
+let colorCopy = faveColors.slice();
+
 //////////////////PROBLEM 9////////////////////
 
 // Add a fourth color to the end of the 'colorCopy' array using push.
 
 //Code Here
+
+colorCopy.push('blue')
 
 //////////////////PROBLEM 10////////////////////
 
@@ -79,11 +108,24 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
+// console.log()
+
+// let middleNums = nu
+
 //////////////////PROBLEM 11////////////////////
 
 // Create an object called 'me' that has the following keys: firstName, state, age, and greeter. The value of the firstName key should be your name as a string. The value of the property state should be your current state or providence of residence as a string. The value of age should be your age as a number. greeter should be a method that returns the string 'Hello! My name is NAMEVALUE and I live in STATEVALUE' with the corresponding values. 
 
 //Code Here
+
+let me = {
+firstName: 'Cam',
+state: 'California',
+age: 27;
+greeter: function(){
+	
+}
+}
 
 //////////////////PROBLEM 12////////////////////
 
