@@ -5,12 +5,13 @@
 //Create an array called 'groceries' that contains three grocery items as strings. 
 
 // Code Here
+let groceries = []
 
 //////////////////STEP 2////////////////////
 //Create a variable called 'yourName' that is assigned the value of your name as a string. 
 
 // Code Here
-
+let 
 //////////////////STEP 3////////////////////
 //Create a function called 'setGroceryListTitle' that takes in one parameter called 'x'. The function should return a string of 'XPARAM's Grocery List'.
 

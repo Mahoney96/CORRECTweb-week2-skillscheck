@@ -6,8 +6,20 @@
 
 // CODE HERE
 
+let faveColors = ["blue", "green", "yellow"];
+
 //////////////////Step 2////////////////////
 // Create an object called 'me' that has these keys: firstName, superHeroName, homeTown, superPowers, superPowerXP, and profileImage. 
+
+let me = {
+    firstName: "Cam",
+    superHeroName: "The Super SpecRunner",
+    homeTown: "Derry, NH",
+    superPowers: ["Unbreakable Script Cannon", "Faulty Line Karate-kick-FIX", "Spec Runner Sprint"],
+    superPowerXP: ,
+    profileImage: ,
+}
+
 
 // The firstName key should have a value of your name as a string. 
 

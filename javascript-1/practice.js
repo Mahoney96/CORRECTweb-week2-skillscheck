@@ -108,9 +108,6 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
-// console.log()
-
-// let middleNums = nu
 
 //////////////////PROBLEM 11////////////////////
 
@@ -123,7 +120,7 @@ firstName: 'Cam',
 state: 'California',
 age: 27;
 greeter: function(){
-	
+
 }
 }
 
@@ -132,6 +129,12 @@ greeter: function(){
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
+function bigOrSmall(arr){
+return(
+	let answers = 
+)
+}
+
 
 //////////////////PROBLEM 13////////////////////
 
