@@ -154,7 +154,7 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
-
+let doubled = myNumbers.map(myNumbers *= 2)
 
 //////////////////PROBLEM 15////////////////////
 
