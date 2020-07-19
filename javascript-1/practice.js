@@ -108,6 +108,8 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
+const middleNums = numbers.splice(1,3)
+
 
 //////////////////PROBLEM 11////////////////////
 
@@ -115,25 +117,25 @@ const numbers = [1, 2, 3, 4, 5]
 
 //Code Here
 
-let me = {
-firstName: 'Cam',
-state: 'California',
-age: 27;
-greeter: function(){
+// let me = {
+// firstName: 'Cam',
+// state: 'California',
+// age: 27;
+// greeter: function(){
 
-}
-}
+// }
+// }
 
 //////////////////PROBLEM 12////////////////////
 
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
-function bigOrSmall(arr){
-return(
-	let answers = 
-)
-}
+// function bigOrSmall(arr){
+// return(
+// 	let answers = 
+// )
+// }
 
 
 //////////////////PROBLEM 13////////////////////
@@ -154,7 +156,7 @@ const myNumbers = [3, 55, 788, 2, 1]
 
 // Code Here
 
-let doubled = myNumbers.map(myNumbers *= 2)
+const doubled = myNumbers.map( i => i * 2);
 
 //////////////////PROBLEM 15////////////////////
 
