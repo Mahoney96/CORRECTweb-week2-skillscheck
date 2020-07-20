@@ -36,7 +36,7 @@ header nav {
 .main{
     height: 80vh;
     width: 100%;
-    background-color: tomato;
+    background-color: blanchedalmond;
     display: flex;
     justify-content: space-around;
     align-items: center;
