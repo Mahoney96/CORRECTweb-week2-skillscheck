@@ -144,10 +144,27 @@ const middleNums = numbers.splice(1,3)
 // Create a function called 'bigOrSmall' that takes in one parameter, 'arr', which will be an array of numbers. Inside of the bigOrSmall function, create a new array called 'answers'. Then, loop over the passed in arr parameter, and check to see if the number in the array is GREATER than 100. If it is, push 'big' as a string to the answers array. If the number is LESS than or EQUAL to 100, push 'small' as a string to the answers array. Return the answers array inside of the function.
 
 // Code here
+
+function bigOrSmall(arr){
+	let answers = []
+	for(let arr = 0; arr > answers.length; arr++){
+	};
+	return answers.push['big']
+}
+
+bigOrSmall();
+
+
 // function bigOrSmall(arr){
-// return(
-// 	let answers = 
-// )
+// 	let answers = [];
+// 	if (for(i = 0; i > 100; i++)){
+// 		return( answers.push('big')
+// 	}) else {
+		
+// 	}
+// 	for(i = 0; i > 100; i++){
+		
+// 	}; 
 // }
 
 

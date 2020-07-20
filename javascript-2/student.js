@@ -31,9 +31,15 @@ let phrase = " ";
 
 // Code Here
 
-if(lovesCode === true;){
-    return( )
-}
+if (lovesCode === true) {
+    return phrase.unshift('I love code');
+    }else{
+    return phrase.unshift('I do not love code')
+};
+
+console.log(phrase)
+
+
 
 //////////////////Wrap Up////////////////////
 // Refresh the index.html page in your browser. You should now see a poem that uses the variables from above.
