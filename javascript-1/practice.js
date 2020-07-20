@@ -118,13 +118,26 @@ const middleNums = numbers.splice(1,3)
 //Code Here
 
 // let me = {
-// firstName: 'Cam',
-// state: 'California',
-// age: 27;
-// greeter: function(){
+// 	firstName: 'Cam',
+// 	state: 'California',
+// 	age: 27,
+// 	greeter: () => {
+// 	return `Hello! My name is ${firstName}, and I live in ${state}`;
+// 	}}
+	
+// 	console.log(me)
 
-// }
-// }
+	let me = {
+	firstName: 'Cam',
+	state: 'California',
+	age: 27,
+	greeter: function(firstName, state){
+	  console.log(`My name is ${firstName} and I live in ${state}`)
+	}
+  };
+  
+  console.log(me.greeter("Cam", "California"));
+	
 
 //////////////////PROBLEM 12////////////////////
 
